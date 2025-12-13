@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(dir:*)",
+      "Bash(php -v:*)",
+      "Bash(composer:*)"
+    ]
+  }
+}
