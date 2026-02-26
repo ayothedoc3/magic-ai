@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(NEXTAUTH_SECRET=build-secret-placeholder npm run build:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(node:*)",
+      "Bash(git add:*)",
+      "Bash(curl -s -H \"Accept: application/json\" -H \"Authorization: Bearer 3|U0DvXAMDK0Yq7LkQJAbcvGJp9QNeiv7wN33Nk6qud10af752\" \"http://2.59.156.125:8000/api/v1/applications/towwkgwkwc08gg800cokgck0\")",
+      "Bash(curl -s -H \"Accept: application/json\" -H \"Authorization: Bearer 4|0OKc3cWg1nKVZSg31Nzp8I1q2DOEiLyy78DLA4UK1e6501c9\" \"http://2.59.156.125:8000/api/v1/applications/towwkgwkwc08gg800cokgck0\")",
+      "Bash(python3 -c \" import json, sys d = json.load\\(sys.stdin\\) for k in [''ports_exposes'', ''ports_mappings'', ''build_pack'', ''dockerfile_location'', ''fqdn'', ''status'', ''health_check_enabled'', ''health_check_path'', ''health_check_port'', ''docker_compose_location'', ''base_directory'', ''publish_directory'', ''docker_compose'']: print\\(f''{k}: {d.get\\(k, \"\"N/A\"\"\\)}''\\)\")",
+      "Bash(curl:*)",
+      "Bash(npx playwright:*)",
+      "Bash(test -f .env.local)",
+      "Bash(PLAYWRIGHT_BASE_URL=https://ayomagic.com npx playwright test --reporter=list)"
+    ]
+  }
+}
